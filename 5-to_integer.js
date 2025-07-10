@@ -4,11 +4,11 @@ if (args.length > 0) {
     if (!isNaN(num)) {
         console.log(`My number: ${num}`); // Print the integer value
     } else {
-        console.log("Not a valid integer."); // Handle case where conversion fails
+        console.log("Not a number"); // Handle case where conversion fails
     }
 }
 else {
-    console.log("No arguments provided."); // Handle case where no arguments are passed
+    console.log("Not a number"); // Handle case where no arguments are passed
 }
 // Usage: node script.js 42
 // Example: If you run `node script.js 42`, it will print "42"
