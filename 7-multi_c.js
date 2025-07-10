@@ -8,9 +8,9 @@ if (args.length > 0) {
             console.log("C is fun"); // Print "C is fun" num times
         }
     } else {
-        console.log("Not a valid integer."); // Handle case where conversion fails
+        console.log("Missing number of occurrences"); // Handle case where conversion fails
     }
 }
 else {
-    console.log("No arguments provided."); // Handle case where no arguments are passed
+    console.log("Missing number of occurrences"); // Handle case where no arguments are passed
 }
